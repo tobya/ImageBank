@@ -22,4 +22,4 @@ Route::group(['middleware' => 'auth:sanctum'],function(){
 
 });
 
-Route::post('/v1/store',[\App\Http\Controllers\StoreImageController::class, 'StoreImage']);
+Route::post('/store',[\App\Http\Controllers\StoreImageController::class, 'StoreImage']);
